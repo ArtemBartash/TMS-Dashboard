@@ -153,8 +153,8 @@
     font-size: 25px;
     font-weight: 700;
     color: transparent;    
+    background-clip: border-box;
     -webkit-background-clip: text;
-    background-clip: text;
     background-image: linear-gradient(to right, #b26ae1, #6a5bb4);
   }
 
@@ -336,8 +336,8 @@
     font-weight: 700;
     margin-bottom: 11px;
     color: transparent;    
+    background-clip: border-box;
     -webkit-background-clip: text;
-    background-clip: text;
     background-image: linear-gradient(to right, #708AE6, #8841AF);
   }
 }
@@ -363,8 +363,8 @@
     font-weight: 700;
     margin-right: 44px;
     color: transparent;    
+    background-clip: border-box;
     -webkit-background-clip: text;
-    background-clip: text;
     background-image: linear-gradient(to right, #FD5272, #EA6D54);
     margin-bottom: 8px;
   }

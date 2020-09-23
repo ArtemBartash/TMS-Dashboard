@@ -723,8 +723,8 @@ textarea {
   margin-bottom: 9px;
   margin-right: 49px;
   color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: -webkit-gradient(linear, left top, right top, from(#FD5272), to(#EA6D54));
   background-image: linear-gradient(to right, #FD5272, #EA6D54);
 }
@@ -779,8 +779,8 @@ textarea {
        tab-size: 20px;
   font-weight: 700;
   color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: -webkit-gradient(linear, left top, right top, from(#FD5272), to(#EA6D54));
   background-image: linear-gradient(to right, #FD5272, #EA6D54);
   margin-bottom: 8px;
@@ -796,8 +796,8 @@ textarea {
   font-size: 12px;
   font-weight: 700;
   color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: -webkit-gradient(linear, left top, right top, from(#FD5272), to(#EA6D54));
   background-image: linear-gradient(to right, #FD5272, #EA6D54);
 }
@@ -850,8 +850,8 @@ textarea {
   font-family: 'Yellowtail', cursive;
   font-weight: 300;
   color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: -webkit-gradient(linear, left top, right top, from(#FD5272), to(#EA6D54));
   background-image: linear-gradient(to right, #FD5272, #EA6D54);
 }
@@ -1081,8 +1081,8 @@ textarea {
   font-size: 25px;
   font-weight: 700;
   color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: -webkit-gradient(linear, left top, right top, from(#b26ae1), to(#6a5bb4));
   background-image: linear-gradient(to right, #b26ae1, #6a5bb4);
 }
@@ -1285,8 +1285,8 @@ textarea {
   font-weight: 700;
   margin-bottom: 11px;
   color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: -webkit-gradient(linear, left top, right top, from(#708AE6), to(#8841AF));
   background-image: linear-gradient(to right, #708AE6, #8841AF);
 }
@@ -1321,8 +1321,8 @@ textarea {
   font-weight: 700;
   margin-right: 44px;
   color: transparent;
+  background-clip: border-box;
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: -webkit-gradient(linear, left top, right top, from(#FD5272), to(#EA6D54));
   background-image: linear-gradient(to right, #FD5272, #EA6D54);
   margin-bottom: 8px;
@@ -1507,9 +1507,9 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-          align-items: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 21px;

@@ -90,8 +90,8 @@
     margin-bottom: 9px;
     margin-right: 49px;
     color: transparent;    
+    background-clip: border-box;
     -webkit-background-clip: text;
-    background-clip: text;
     background-image: linear-gradient(to right, #FD5272, #EA6D54);
   }
 
@@ -137,9 +137,9 @@
   &__daily {
     tab-size: 20px;
     font-weight: 700;
-    color: transparent;    
+    color: transparent;
+    background-clip: border-box;    
     -webkit-background-clip: text;
-    background-clip: text;
     background-image: linear-gradient(to right, #FD5272, #EA6D54);
     margin-bottom: 8px;
   }
@@ -152,8 +152,8 @@
     font-size: 12px;
     font-weight: 700;
     color: transparent;    
+    background-clip: border-box;
     -webkit-background-clip: text;
-    background-clip: text;
     background-image: linear-gradient(to right, #FD5272, #EA6D54);
   }
 }

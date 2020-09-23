@@ -31,9 +31,9 @@
     font-size: 40px;
     font-family: 'Yellowtail', cursive;
     font-weight: 300;
-    color: transparent;    
+    color: transparent;   
+    background-clip: border-box; 
     -webkit-background-clip: text;
-    background-clip: text;
     background-image: linear-gradient(to right, #FD5272, #EA6D54);
   }
 
